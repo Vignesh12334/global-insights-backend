@@ -1,6 +1,5 @@
 import fs from 'fs';
 import { parse } from 'csv-parse';
-import { createClient } from '@supabase/supabase-js';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
