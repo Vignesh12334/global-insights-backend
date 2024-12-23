@@ -10,7 +10,8 @@ async function getAllInsights(req, res) {
       `
             *,
             sectors (name),
-            regions (name)
+            regions (name),
+            countries (name)
         `,
       { count: "exact" }
     )
